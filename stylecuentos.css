@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=DM+Serif+Display:ital@0;1&family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Great+Vibes&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+body{
+    font-family: "Cormorant Garamond", serif;
+    background-color: #f5eadc;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.header{
+    background-image: linear-gradient(
+        #382c407f,
+        #252029b3
+    ),
+    url(images/bg.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 45vh;
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+
+}
+
+.logo {
+    
+    font-size: 30px;
+    color: #f5eadc;
+    font-weight: 800;
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.logo:hover{
+    color: #44ae56;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+
+}
+
+.menu .navbar ul li a {
+    font-size: 33px;
+    padding: 10px;
+    color: #b7bffb;
+    display: block;
+    columns: #f5eadc;
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+.menu .navbar ul h1 {
+    font-size: 33px;
+    padding: 10px;
+    color: #f5eadc;
+    display: block;
+    columns: #f5eadc;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.menu .navbar ul li a:hover {
+    color: #741648
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono{
+    width: 25px;
+
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+
+.header-content{
+    text-align: center;
+
+}
+
+.header-txt samp{
+    font-size: 25px;
+    color: #f5eadc;
+    font-family: "Cormorant Garamond", serif;
+    font-optical-sizing: auto;
+    text-align: center;
+
+}
+
+.header-txt h6{
+    font-size: 20px;
+    color: #c4748c;
+    font-family: "Cormorant Garamond", serif;
+    font-optical-sizing: auto;
+    text-align: center;
+
+}
+
+.header-txt h1 {
+    font-size: 120px;
+    line-height: 120px;
+    color: #f5eadc;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.header h5{
+    font-size: 30px;
+    color: #f5eadc;
+    font-weight: 800;
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+
+.price{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #a16f7e;
+    color: #741648;
+}
+
+.price-1 {
+    height: 95px;
+    width: 300px;
+    height: auto;
+    border-right: 1px solid #a16f7e;
+    padding: 15px;
+    text-align: center;
+}
+
+.price-1:last-child{
+    border: 0;
+}
+
+.price-1 p {
+    font-size: 21px;
+
+}
+
+.price-1 h3{
+    font-size: 30px
+}
+
+.adventur{
+    padding: 100px 0;
+    text-align: center;
+}
+
+.general-txt spam{
+    color: #504039;
+    font-size: 35px;
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+    
+}
+
+h2{
+    color: #741648;
+    font-size: 70px;
+    line-height: 70px;
+    margin-bottom: 35px;
+}
+
+
+.btn-1 {
+    display: inline-block;
+    padding: 9px 20px;
+    background-color: #252029ca;
+    color:#b7bffb;
+    font-size: 23px;
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.btn-1:hover {
+    background-color: #33283cb3;     
+
+}
+
+
+.general {
+    padding: 65px;
+}
+
+.general-txt {
+    text-align: left;
+}
+
+.general-txt p {
+    font-size: 30px;
+    color: #504039;
+    margin-bottom: 50px;
+    text-align: left;
+
+}
+
+@media (max-width:10000px) {
+
+    .menu {
+        padding: 20px;
+
+    }
+
+    .menu label {
+        display: initial;
+
+    }
+
+    .menu .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color:#252029;
+        display: none;
+        text-align: center;
+    }
+
+    .menu .navbar ul li {
+        width: 100%;
+    }
+
+    #menu:checked ~ .navbar {
+        display: inline;
+    }
+
+    .general {
+        padding: 30px;
+        flex-direction: column;
+    }
+
+    .general-txt {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 25px;
+
+    }
+
+    .general-txt p {
+        margin-bottom: 25px;
+    }
+}

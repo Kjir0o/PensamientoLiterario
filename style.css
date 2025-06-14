@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=DM+Serif+Display:ital@0;1&family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Great+Vibes&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+body{
+    font-family: "Cormorant Garamond", serif;
+    background-color: #f5eadc;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.header{
+    background-image: linear-gradient(
+        #382c407f,
+        #252029b3
+    ),
+    url(images/bg.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+
+}
+
+
+.logo {
+    
+    font-size: 30px;
+    color: #f5eadc;
+    font-weight: 800;
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 25px;
+    margin-left: 25px;
+    
+}
+
+.logo:hover{
+    color: #44ae56;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+
+}
+
+.logo {
+    
+    font-size: 30px;
+    color: #f5eadc;
+    font-weight: 800;
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.logo:hover{
+    color: #44ae56;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+
+}
+
+.menu .navbar ul li a {
+    font-size: 33px;
+    padding: 10px;
+    color: #b7bffb;
+    display: block;
+    columns: #f5eadc;
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+.menu .navbar ul h1 {
+    font-size: 33px;
+    padding: 10px;
+    color: #f5eadc;
+    display: block;
+    columns: #f5eadc;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.menu .navbar ul li a:hover {
+    color: #741648
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono{
+    width: 25px;
+
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+
+.header-content{
+    text-align: center;
+
+}
+
+.header-txt samp{
+    font-size: 25px;
+    color: #f5eadc;
+    font-family: "Cormorant Garamond", serif;
+    font-optical-sizing: auto;
+}
+
+
+.header-txt h1 {
+    font-size: 120px;
+    line-height: 120px;
+    color:#f5eadc;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.price{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #a16f7e;
+    color: #741648;
+}
+
+.price-1 {
+    height: 95px;
+    width: 300px;
+    height: auto;
+    border-right: 1px solid #a16f7e;
+    padding: 15px;
+    text-align: center;
+}
+
+.price-1:last-child{
+    border: 0;
+}
+
+.price-1 p {
+    font-size: 21px;
+}
+
+.price-1 h3{
+    font-size: 30px
+}
+
+.adventur{
+    padding: 100px 0;
+    text-align: center;
+}
+
+span{
+    color: #504039;
+    font-size: 100px;
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 70px
+}
+
+h2{
+    color: #741648;
+    font-size: 70px;
+    line-height: 70px;
+    margin-bottom: 35px;
+}
+
+.adventur-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+}
+
+.adventur-content h3{
+    color: #741648;
+    font-size: 70px;
+    line-height: 70px;
+    margin-bottom: 35px;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.adventur-1{
+    padding: 25px 65px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.adventur-1 img{
+    width: 170px;
+    margin: -120px 0 30px 0;
+
+}
+
+.adventur-1 h3{
+    color:#741648;
+    font-size: 40px;
+    line-height: 45px;
+    margin-bottom: 150px;
+
+}
+
+.bg-1 {
+    background-image: url(Images/i1.jpg);
+    background-position: center center;
+    background-repeat: cover;
+    width: 30%;
+    height: 400px;
+}
+
+.bg-2 {
+    background-image: url(Images/i2.jpg);
+    background-position: center center;
+    background-repeat: cover;
+    width: 35%;
+    height: 400px;
+}
+
+.bg-3 {
+    background-image: url(Images/i3.jpg);
+    background-position: center center;
+    background-repeat: cover;
+    width: 30%;
+    height: 400px;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 13px 25px;
+    background-color: #252029ca;
+    color:#b7bffb;
+    font-size: 23px;
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.btn-1:hover {
+    background-color: #33283cb3;     
+
+}
+
+@media(max-width:991px) {
+
+    .menu {
+        padding: 20px;
+
+    }
+
+    .menu label {
+        display: initial;
+
+    }
+
+    .menu .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #504039;
+        display: none;
+    }
+
+    .menu .navbar ul li {
+        width: 100%;
+    }
+
+    #menu:checked ~ .navbar {
+        display: inline;
+    }
+
+        .header-content {
+        padding: 100px 30px;
+    }
+
+    .header-txt h1{
+        font-size: 80px;
+        line-height: 80px;
+    }
+
+
+}
